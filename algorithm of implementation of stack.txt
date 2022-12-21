@@ -1,0 +1,44 @@
+Algorithm
+struct node *top=0
+void push()
+{
+1.	declare one pointer variable or struct node datatype
+ 		struct node *newnode;
+2.	newnode = allocate memory;
+3.	accept value from the user.
+4.	scanf (“%d”, & x);
+5.	newnode ->data = x;
+6.	newnode-> next = top;
+7.	top = newnode;
+		assign pointer newnode to top
+8.	return (top);
+9.	}  end function
+
+
+void display ()
+
+1.	struct  node *temp;
+2.	declare a pointer variable of struct node data type.
+3.	temp = top;
+4.	if (top = = null)
+		print (stack is empty);
+5.	else
+6.	print( value in stack);
+7.	while( top!= null)
+		upto last element
+8.	printf(“%d”, temp->data);
+9.	temp= temp->link;
+		assign temp of link to temp;
+10.	end of while loop.
+11.	End of else
+12.	} end of function.
+
+void pop()
+
+1.	struct node *temp;
+	declare a pointer variable ofstruct node data type
+2.	if ( top = = NULL)
+	printf(stack is empty);
+3.	else
+	temp = top
+
